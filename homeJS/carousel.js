@@ -297,7 +297,7 @@ stockBtn[0].addEventListener("click", () =>{
         j = 0;
     }
 
-    stockCarousel.style.transform = `translate(${j * 370}px, 0)`;
+    stockCarousel.style.transform = `translate(${j * 375}px, 0)`;
     doctorsBtn[0].style.background = `#4797FF`;
     doctorsBtn[0].style.color = `#fff`;
     doctorsBtn[1].style.color = `#4797FF`;
@@ -310,7 +310,7 @@ stockBtn[1].addEventListener("click", () =>{
         j = -stockCard.length + 1;
     }
 
-    stockCarousel.style.transform = `translate(${j * 370}px, 0)`;
+    stockCarousel.style.transform = `translate(${j * 375}px, 0)`;
     stockBtn[0].style.background = `#fff`;
     stockBtn[0].style.color = `#4797FF`;
     stockBtn[1].style.color = `#fff`;

@@ -178,14 +178,14 @@
     #slick-btn1-mobil {
         display: block;
         position: absolute;
-        top: 110px;
+        top: 100px;
         left: 0px;
     }
 
     #slick-btn2-mobil {
         display: block;
         position: absolute;
-        top: 110px;
+        top: 100px;
         right: 0px;
     }
 
@@ -770,7 +770,23 @@
     #stock-btn2 {
         position: absolute;
         top: 300px;
-        right: 20px;
+        right: 25px;
+    }
+
+    #slick-btn1-tablet{
+        display: none;
+    }
+
+    #slick-btn1-tablet{
+        display: none;
+    }
+
+    #stock-btn1-gr{
+        display: none;
+    }
+
+    #stock-btn2-gr{
+        display: none;
     }
 
     /*********************************************************************/
