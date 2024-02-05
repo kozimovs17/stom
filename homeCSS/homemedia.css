@@ -851,6 +851,12 @@
         align-items: center;
     }
 
+    .location-img{
+        width: 280px;
+        height: 240px;
+    }
+    
+
     /*****************************************************************************/
 
     footer {
@@ -921,6 +927,26 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        font-weight: 400;
+    }
+
+    .footer-link:hover{
+        padding: 3px 9px;
+        border-radius: 34px;
+        background-color: var(--blue);
+        color: var(--white);
+    }
+
+    #analyze-link{
+        display: block;
+    }
+    
+    #stock-link{
+        display: block;
+    }
+    
+    #contact-link{
+        display: block;
     }
 
     .footer-services-links {
@@ -932,6 +958,13 @@
         gap: 15px;
         transition: all 0.5s;
         /* margin-bottom: 20px; */
+    }
+
+    .footer-services-link:hover{
+        padding: 3px 9px;
+        border-radius: 34px;
+        background-color: var(--blue);
+        color: var(--white);
     }
 
     #footer-services-links1 {
@@ -1825,6 +1858,13 @@
         align-items: center;
     }
 
+    .location-img{
+        width: 560px;
+        height: 336px;
+        border-radius: 34px;
+    }
+    
+
     /*****************************************************************************/
 
     footer {
@@ -2318,6 +2358,12 @@
     .location-item1 {
         width: 538px;
     }
+
+    .location-img{
+        width: 560px;
+        height: 336px;
+    }
+    
 
     /*****************************************************************************/
 
