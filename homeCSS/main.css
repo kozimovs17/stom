@@ -20,6 +20,10 @@ body {
     align-items: center;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .header {
     max-width: 1600px;
     display: flex;
