@@ -169,10 +169,6 @@ nav {
     text-decoration: none;
 }
 
-.nav-frame-link:hover{
-    color: #4797FF;
-}
-
 #nav-frame-link-p {
     color: var(--blue);
     font-family: 'Inter';
@@ -191,10 +187,6 @@ nav {
     line-height: normal;
 }
 
-.nav-frame-link-p:hover{
-    color: var(--blue);
-}
-
 .search {
     display: flex;
     align-items: center;
@@ -205,6 +197,10 @@ nav {
 
 .search-icon {
     cursor: pointer;
+}
+
+.search-icon:hover{
+    fill: #4797FF;
 }
 
 .search-x {

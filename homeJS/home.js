@@ -46,7 +46,152 @@ phone.addEventListener("click", () => {
         prodentmenu.style.display = `none`;
     }
 });
+/***************************************************************************************/
 
+let navLink = document.getElementById("nav-frame-link-services");
+let servicesPath1 = document.getElementById("services-path1");
+let servicesPath2 = document.getElementById("services-path2");
+let servicesP = document.getElementById("nav-frame-link-s");
+
+
+function servicesLink(){
+    servicesPath1.style.fill = `#4797FF`;
+    servicesPath2.style.fill = `#4797FF`;
+    servicesP.style.color = `#4797FF`;
+}
+
+function servicesOutLink(){
+    servicesPath1.style.fill = `#C7C7C9`;
+    servicesPath2.style.fill = `#C7C7C9`; 
+    servicesP.style.color = `#C7C7C9`;
+}
+/****************************************************************************************/
+let doctorsPath = document.getElementById("doctors-path");
+let doctorsP = document.getElementById("nav-frame-link-d");
+
+function doctorsLink() {
+    doctorsPath.style.fill = `#4797FF`;
+    doctorsP.style.color = `#4797FF`;
+}
+
+function doctorsOutLink() {
+    doctorsPath.style.fill = `#C7C7C9`;
+    doctorsP.style.color = `#C7C7C9`;
+}
+
+/****************************************************************************************/
+let aboutPath = document.getElementById("about-path");
+let aboutP = document.getElementById("nav-frame-link-a");
+
+function aboutLink() {
+    aboutPath.style.fill = `#4797FF`;
+    aboutP.style.color = `#4797FF`;
+}
+
+function aboutOutLink() {
+    aboutPath.style.fill = `#C7C7C9`;
+    aboutP.style.color = `#C7C7C9`;
+}
+/*************************************************************************************/
+let stockPath1 = document.getElementById("stock-path1");
+let stockPath2 = document.getElementById("stock-path2");
+let stockPath3 = document.getElementById("stock-path3");
+let stockPath4 = document.getElementById("stock-path4");
+let stockP = document.getElementById("nav-frame-link-st");
+
+
+function stockLink(){
+    stockPath1.style.fill = `#4797FF`;
+    stockPath2.style.fill = `#4797FF`;
+    stockPath3.style.fill = `#4797FF`;
+    stockPath4.style.fill = `#4797FF`;
+    stockP.style.color = `#4797FF`;
+}
+
+function stockOutLink(){
+    stockPath1.style.fill = `#C7C7C9`;
+    stockPath2.style.fill = `#C7C7C9`; 
+    stockPath3.style.fill = `#C7C7C9`; 
+    stockPath4.style.fill = `#C7C7C9`; 
+    stockP.style.color = `#C7C7C9`;
+}
+
+/*************************************************************************************/
+let analyzPath1 = document.getElementById("analyz-path1");
+let analyzPath2 = document.getElementById("analyz-path2");
+let analyzPath3 = document.getElementById("analyz-path3");
+let analyzPath4 = document.getElementById("analyz-path4");
+let analyzPath5 = document.getElementById("analyz-path5");
+let analyzPath6 = document.getElementById("analyz-path6");
+let analyzPath7 = document.getElementById("analyz-path7");
+let analyzPath8 = document.getElementById("analyz-path8");
+let analyzPath9 = document.getElementById("analyz-path9");
+let analyzP = document.getElementById("nav-frame-link-an");
+
+
+function analyzLink(){
+    analyzPath1.style.fill = `#4797FF`;
+    analyzPath2.style.fill = `#4797FF`;
+    analyzPath3.style.fill = `#4797FF`;
+    analyzPath4.style.fill = `#4797FF`;
+    analyzPath5.style.fill = `#4797FF`;
+    analyzPath6.style.fill = `#4797FF`;
+    analyzPath7.style.fill = `#4797FF`;
+    analyzPath8.style.fill = `#4797FF`;
+    analyzPath9.style.fill = `#4797FF`;
+    analyzP.style.color = `#4797FF`;
+}
+
+function analyzOutLink(){
+    analyzPath1.style.fill = `#C7C7C9`;
+    analyzPath2.style.fill = `#C7C7C9`; 
+    analyzPath3.style.fill = `#C7C7C9`; 
+    analyzPath4.style.fill = `#C7C7C9`; 
+    analyzPath5.style.fill = `#C7C7C9`; 
+    analyzPath6.style.fill = `#C7C7C9`; 
+    analyzPath7.style.fill = `#C7C7C9`; 
+    analyzPath8.style.fill = `#C7C7C9`; 
+    analyzPath9.style.fill = `#C7C7C9`; 
+    analyzP.style.color = `#C7C7C9`;
+}
+
+/*************************************************************************************/
+let worksPath1 = document.getElementById("works-path1");
+let worksPath2 = document.getElementById("works-path2");
+let worksPath3 = document.getElementById("works-path3");
+let worksPath4 = document.getElementById("works-path4");
+let worksP = document.getElementById("nav-frame-link-w");
+
+
+function worksLink(){
+    worksPath1.style.fill = `#4797FF`;
+    worksPath2.style.fill = `#4797FF`;
+    worksPath3.style.fill = `#4797FF`;
+    worksPath4.style.fill = `#4797FF`;
+    worksP.style.color = `#4797FF`;
+}
+
+function worksOutLink(){
+    worksPath1.style.fill = `#C7C7C9`;
+    worksPath2.style.fill = `#C7C7C9`; 
+    worksPath3.style.fill = `#C7C7C9`; 
+    worksPath4.style.fill = `#C7C7C9`; 
+    worksP.style.color = `#C7C7C9`;
+}
+
+/****************************************************************************************/
+let contactPath = document.getElementById("contact-path");
+let contactP = document.getElementById("nav-frame-link-c");
+
+function contactLink() {
+    contactPath.style.fill = `#4797FF`;
+    contactP.style.color = `#4797FF`;
+}
+
+function contactOutLink() {
+    contactPath.style.fill = `#C7C7C9`;
+    contactP.style.color = `#C7C7C9`;
+}
 /**********************************menu-finish*************************************/
 let form = document.querySelector("form");
 let number = document.getElementById("number");
