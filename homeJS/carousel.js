@@ -69,14 +69,14 @@ slickBtn[6].addEventListener("click", () => {
     slickCarousel.style.transform = `translate(${f * 1210}px, 0)`;
 });
 
-slickBtn[7].addEventListener("click", () => {
-    f--;
-    if (f < -slickframe.length + 1) {
-        f = -slickframe.length + 1;
-    }
+// slickBtn[7].addEventListener("click", () => {
+//     f--;
+//     if (f < -slickframe.length + 1) {
+//         f = -slickframe.length + 1;
+//     }
 
-    slickCarousel.style.transform = `translate(${f * 1210}px, 0)`;
-});
+//     slickCarousel.style.transform = `translate(${f * 1210}px, 0)`;
+// });
 /****************************slick-carousel 1200px***********************************/
 
 /*************************************slick-carousel finish*************************************************/
@@ -170,6 +170,8 @@ servicesBtn[7].addEventListener("click", () => {
 let doctorsCarousel = document.querySelector(".doctors-carousel");
 let doctorsBtn = document.querySelectorAll(".doctors-btns");
 let doctorsframe = document.querySelectorAll(".doctors-frame");
+let doctorsCircle = document.querySelectorAll("#doctors-circle-btn");
+let doctorsArrow = document.querySelectorAll("#doctors-btn-path");
 let z = 0;
 
 doctorsBtn[0].addEventListener("click", () => {
@@ -179,10 +181,10 @@ doctorsBtn[0].addEventListener("click", () => {
     }
 
     doctorsCarousel.style.transform = `translate(${z * 1260}px, 0)`;
-    doctorsBtn[0].style.background = `#4797FF`;
-    doctorsBtn[0].style.color = `#fff`;
-    doctorsBtn[1].style.color = `#4797FF`;
-    doctorsBtn[1].style.background = `#fff`;
+    doctorsCircle[0].style.fill = `#4797FF`;
+    doctorsArrow[0].style.fill = `#fff`;
+    doctorsArrow[1].style.fill = `#4797FF`;
+    doctorsCircle[1].style.fill = `#fff`;
 });
 
 doctorsBtn[1].addEventListener("click", () => {
@@ -192,10 +194,10 @@ doctorsBtn[1].addEventListener("click", () => {
     }
 
     doctorsCarousel.style.transform = `translate(${z * 1260}px, 0)`;
-    doctorsBtn[0].style.background = `#fff`;
-    doctorsBtn[0].style.color = `#4797FF`;
-    doctorsBtn[1].style.color = `#fff`;
-    doctorsBtn[1].style.background = `#4797FF`;
+    doctorsCircle[0].style.fill = `#fff`;
+    doctorsArrow[0].style.fill = `#4797FF`;
+    doctorsArrow[1].style.fill = `#fff`;
+    doctorsCircle[1].style.fill = `#4797FF`;
 });
 
 /**doctors-carousel-mobil**/
@@ -207,10 +209,10 @@ doctorsBtn[2].addEventListener("click", () => {
     }
 
     doctorsCarousel.style.transform = `translate(${z * 330}px, 0)`;
-    doctorsBtn[2].style.background = `#4797FF`;
-    doctorsBtn[2].style.color = `#fff`;
-    doctorsBtn[3].style.color = `#4797FF`;
-    doctorsBtn[3].style.background = `#fff`;
+    doctorsCircle[2].style.fill = `#4797FF`;
+    doctorsArrow[2].style.fill = `#fff`;
+    doctorsArrow[3].style.fill = `#4797FF`;
+    doctorsCircle[3].style.fill = `#fff`;
 });
 
 doctorsBtn[3].addEventListener("click", () => {
@@ -220,10 +222,10 @@ doctorsBtn[3].addEventListener("click", () => {
     }
 
     doctorsCarousel.style.transform = `translate(${z * 330}px, 0)`;
-    doctorsBtn[2].style.background = `#fff`;
-    doctorsBtn[2].style.color = `#4797FF`;
-    doctorsBtn[3].style.color = `#fff`;
-    doctorsBtn[3].style.background = `#4797FF`;
+    doctorsCircle[2].style.fill = `#fff`;
+    doctorsArrow[2].style.fill = `#4797FF`;
+    doctorsArrow[3].style.fill = `#fff`;
+    doctorsCircle[3].style.fill = `#4797FF`;
 });
 
 /********************************************************************/
@@ -235,10 +237,10 @@ doctorsBtn[4].addEventListener("click", () => {
     }
 
     doctorsCarousel.style.transform = `translate(${z * 600}px, 0)`;
-    doctorsBtn[2].style.background = `#4797FF`;
-    doctorsBtn[2].style.color = `#fff`;
-    doctorsBtn[3].style.color = `#4797FF`;
-    doctorsBtn[3].style.background = `#fff`;
+    doctorsCircle[4].style.fill = `#4797FF`;
+    doctorsArrow[4].style.fill = `#fff`;
+    doctorsArrow[5].style.fill = `#4797FF`;
+    doctorsCircle[5].style.fill = `#fff`;
 });
 
 doctorsBtn[5].addEventListener("click", () => {
@@ -248,10 +250,10 @@ doctorsBtn[5].addEventListener("click", () => {
     }
 
     doctorsCarousel.style.transform = `translate(${z * 600}px, 0)`;
-    doctorsBtn[2].style.background = `#fff`;
-    doctorsBtn[2].style.color = `#4797FF`;
-    doctorsBtn[3].style.color = `#fff`;
-    doctorsBtn[3].style.background = `#4797FF`;
+    doctorsCircle[4].style.fill = `#fff`;
+    doctorsArrow[4].style.fill = `#4797FF`;
+    doctorsArrow[5].style.fill = `#fff`;
+    doctorsCircle[5].style.fill = `#4797FF`;
 });
 
 /***********************************doctors-carousel-tablet finish*****************************************/
@@ -262,10 +264,10 @@ doctorsBtn[6].addEventListener("click", () => {
     }
 
     doctorsCarousel.style.transform = `translate(${z * 1180}px, 0)`;
-    doctorsBtn[4].style.background = `#4797FF`;
-    doctorsBtn[4].style.color = `#fff`;
-    doctorsBtn[5].style.color = `#4797FF`;
-    doctorsBtn[5].style.background = `#fff`;
+    doctorsCircle[6].style.fill = `#4797FF`;
+    doctorsArrow[6].style.fill = `#fff`;
+    doctorsArrow[7].style.fill = `#4797FF`;
+    doctorsCircle[7].style.fill = `#fff`;
 });
 
 doctorsBtn[7].addEventListener("click", () => {
@@ -275,10 +277,10 @@ doctorsBtn[7].addEventListener("click", () => {
     }
 
     doctorsCarousel.style.transform = `translate(${z * 1180}px, 0)`;
-    doctorsBtn[4].style.background = `#fff`;
-    doctorsBtn[4].style.color = `#4797FF`;
-    doctorsBtn[5].style.color = `#fff`;
-    doctorsBtn[5].style.background = `#4797FF`;
+    doctorsCircle[6].style.fill = `#fff`;
+    doctorsArrow[6].style.fill = `#4797FF`;
+    doctorsArrow[7].style.fill = `#fff`;
+    doctorsCircle[7].style.fill = `#4797FF`;
 });
 
 /***********************************doctors-carousel-tablet finish*****************************************/
@@ -289,6 +291,8 @@ doctorsBtn[7].addEventListener("click", () => {
 let stockCarousel = document.querySelector(".stock-items");
 let stockBtn = document.querySelectorAll(".stock-btns");
 let stockCard = document.querySelectorAll(".stock-card");
+let stockCircle = document.querySelectorAll("#stock-circle-btn");
+let stockArrow = document.querySelectorAll("#stock-btn-path");
 let j = 0;
 
 stockBtn[0].addEventListener("click", () =>{
@@ -298,10 +302,10 @@ stockBtn[0].addEventListener("click", () =>{
     }
 
     stockCarousel.style.transform = `translate(${j * 375}px, 0)`;
-    doctorsBtn[0].style.background = `#4797FF`;
-    doctorsBtn[0].style.color = `#fff`;
-    doctorsBtn[1].style.color = `#4797FF`;
-    doctorsBtn[1].style.background = `#fff`;
+    stockCircle[0].style.fill = `#4797FF`;
+    stockArrow[0].style.fill = `#fff`;
+    stockArrow[1].style.fill = `#4797FF`;
+    stockCircle[1].style.fill = `#fff`;
 });
 
 stockBtn[1].addEventListener("click", () =>{
@@ -311,10 +315,10 @@ stockBtn[1].addEventListener("click", () =>{
     }
 
     stockCarousel.style.transform = `translate(${j * 375}px, 0)`;
-    stockBtn[0].style.background = `#fff`;
-    stockBtn[0].style.color = `#4797FF`;
-    stockBtn[1].style.color = `#fff`;
-    stockBtn[1].style.background = `#4797FF`;
+    stockCircle[0].style.fill = `#fff`;
+    stockArrow[0].style.fill = `#4797FF`;
+    stockArrow[1].style.fill = `#fff`;
+    stockCircle[1].style.fill = `#4797FF`;
 });
 /******************************************************************/
 
@@ -325,10 +329,10 @@ stockBtn[2].addEventListener("click", () =>{
     }
 
     stockCarousel.style.transform = `translate(${j * 370}px, 0)`;
-    doctorsBtn[0].style.background = `#4797FF`;
-    doctorsBtn[0].style.color = `#fff`;
-    doctorsBtn[1].style.color = `#4797FF`;
-    doctorsBtn[1].style.background = `#fff`;
+    stockCircle[2].style.fill = `#4797FF`;
+    stockArrow[2].style.fill = `#fff`;
+    stockArrow[3].style.fill = `#4797FF`;
+    stockCircle[3].style.fill = `#fff`;
 });
 
 stockBtn[3].addEventListener("click", () =>{
@@ -338,10 +342,10 @@ stockBtn[3].addEventListener("click", () =>{
     }
 
     stockCarousel.style.transform = `translate(${j * 370}px, 0)`;
-    stockBtn[0].style.background = `#fff`;
-    stockBtn[0].style.color = `#4797FF`;
-    stockBtn[1].style.color = `#fff`;
-    stockBtn[1].style.background = `#4797FF`;
+    stockCircle[2].style.fill = `#fff`;
+    stockArrow[2].style.fill = `#4797FF`;
+    stockArrow[3].style.fill = `#fff`;
+    stockCircle[3].style.fill = `#4797FF`;
 });
 
 /**************************stock-carousel finish***********************************/
