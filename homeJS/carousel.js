@@ -58,9 +58,28 @@ slickBtn[5].addEventListener("click", () => {
     slickCarousel.style.transform = `translate(${f * 650}px, 0)`;
 });
 
+/*******************************************************************/
+slickBtn[6].addEventListener("click", () => {
+    f++;
+    if (f > 0) {
+        f = 0;
+    }
+
+    slickCarousel.style.transform = `translate(${f * 850}px, 0)`;
+});
+
+slickBtn[7].addEventListener("click", () => {
+    f--;
+    if (f < -slickframe.length + 1) {
+        f = -slickframe.length + 1;
+    }
+
+    slickCarousel.style.transform = `translate(${f * 850}px, 0)`;
+});
+
 /****************************slick-carousel 1200px***********************************/
 
-slickBtn[6].addEventListener("click", () => {
+slickBtn[8].addEventListener("click", () => {
     f++;
     if (f > 0) {
         f = 0;
@@ -69,14 +88,14 @@ slickBtn[6].addEventListener("click", () => {
     slickCarousel.style.transform = `translate(${f * 1210}px, 0)`;
 });
 
-// slickBtn[7].addEventListener("click", () => {
-//     f--;
-//     if (f < -slickframe.length + 1) {
-//         f = -slickframe.length + 1;
-//     }
+slickBtn[9].addEventListener("click", () => {
+    f--;
+    if (f < -slickframe.length + 1) {
+        f = -slickframe.length + 1;
+    }
 
-//     slickCarousel.style.transform = `translate(${f * 1210}px, 0)`;
-// });
+    slickCarousel.style.transform = `translate(${f * 1210}px, 0)`;
+});
 /****************************slick-carousel 1200px***********************************/
 
 /*************************************slick-carousel finish*************************************************/
@@ -143,9 +162,28 @@ servicesBtn[5].addEventListener("click", () => {
     servicesCarousel.style.transform = `translate(${y * 630}px, 0)`;
 });
 
+/**************************************************************************/
+servicesBtn[6].addEventListener("click", () => {
+    y++;
+    if (y > 0) {
+        y = 0;
+    }
+
+    servicesCarousel.style.transform = `translate(${y * 800}px, 0)`;
+});
+
+servicesBtn[7].addEventListener("click", () => {
+    y--;
+    if (y < -servicesframe.length) {
+        y = -servicesframe.length;
+    }
+
+    servicesCarousel.style.transform = `translate(${y * 800}px, 0)`;
+});
+
 /****************************services-carousel 1200px***********************************/
 
-servicesBtn[6].addEventListener("click", () => {
+servicesBtn[8].addEventListener("click", () => {
     y++;
     if (y > 0) {
         y = 0;
@@ -154,7 +192,7 @@ servicesBtn[6].addEventListener("click", () => {
     servicesCarousel.style.transform = `translate(${y * 1180}px, 0)`;
 });
 
-servicesBtn[7].addEventListener("click", () => {
+servicesBtn[9].addEventListener("click", () => {
     y--;
     if (y < -servicesframe.length + 1) {
         y = -servicesframe.length + 1;
@@ -208,7 +246,7 @@ doctorsBtn[2].addEventListener("click", () => {
         z = 0;
     }
 
-    doctorsCarousel.style.transform = `translate(${z * 330}px, 0)`;
+    doctorsCarousel.style.transform = `translate(${z * 310.5}px, 0)`;
     doctorsCircle[2].style.fill = `#4797FF`;
     doctorsArrow[2].style.fill = `#fff`;
     doctorsArrow[3].style.fill = `#4797FF`;
@@ -221,7 +259,7 @@ doctorsBtn[3].addEventListener("click", () => {
         z = -doctorsframe.length - 5;
     }
 
-    doctorsCarousel.style.transform = `translate(${z * 330}px, 0)`;
+    doctorsCarousel.style.transform = `translate(${z * 310.5}px, 0)`;
     doctorsCircle[2].style.fill = `#fff`;
     doctorsArrow[2].style.fill = `#4797FF`;
     doctorsArrow[3].style.fill = `#fff`;
@@ -256,8 +294,36 @@ doctorsBtn[5].addEventListener("click", () => {
     doctorsCircle[5].style.fill = `#4797FF`;
 });
 
-/***********************************doctors-carousel-tablet finish*****************************************/
+/******************************************************************/
+
 doctorsBtn[6].addEventListener("click", () => {
+    z++;
+    if (z > 0) {
+        z = 0;
+    }
+
+    doctorsCarousel.style.transform = `translate(${z * 810}px, 0)`;
+    doctorsCircle[6].style.fill = `#4797FF`;
+    doctorsArrow[6].style.fill = `#fff`;
+    doctorsArrow[7].style.fill = `#4797FF`;
+    doctorsCircle[7].style.fill = `#fff`;
+});
+
+doctorsBtn[7].addEventListener("click", () => {
+    z--;
+    if (z < -doctorsframe.length) {
+        z = -doctorsframe.length;
+    }
+
+    doctorsCarousel.style.transform = `translate(${z * 810}px, 0)`;
+    doctorsCircle[6].style.fill = `#fff`;
+    doctorsArrow[6].style.fill = `#4797FF`;
+    doctorsArrow[7].style.fill = `#fff`;
+    doctorsCircle[7].style.fill = `#4797FF`;
+});
+
+/***********************************doctors-carousel-tablet finish*****************************************/
+doctorsBtn[8].addEventListener("click", () => {
     z++;
     if (z > 0) {
         z = 0;
@@ -270,7 +336,7 @@ doctorsBtn[6].addEventListener("click", () => {
     doctorsCircle[7].style.fill = `#fff`;
 });
 
-doctorsBtn[7].addEventListener("click", () => {
+doctorsBtn[9].addEventListener("click", () => {
     z--;
     if (z < -doctorsframe.length + 1) {
         z = -doctorsframe.length + 1;

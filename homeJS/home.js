@@ -254,7 +254,7 @@ form.addEventListener("submit", (e) =>{
     }
 });
 /**********************************************contact finish*****************************************************/
-let countDownDate = new Date("Feb 14, 2024 00:00:00").getTime();
+let countDownDate = new Date("Feb 24, 2024 00:00:00").getTime();
 let q = setInterval(function(){
     let now = new Date().getTime();
     const distance = countDownDate - now; 
