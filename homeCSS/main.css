@@ -1239,7 +1239,7 @@ form p {
 .stock-group {
     display: flex;
     align-items: center;
-    gap: 70px;
+    gap: 45px;
 }
 
 .stock-info {
@@ -1678,6 +1678,11 @@ footer {
     text-align: right;
     color: var(--black);
     text-decoration: none;
+}
+
+.footer-info-text2 a{
+    text-decoration: none;
+    color: var(--black);
 }
 
 .footer-services-link.services-link-active {
